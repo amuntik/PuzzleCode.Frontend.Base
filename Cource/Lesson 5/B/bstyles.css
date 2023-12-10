@@ -1,3 +1,20 @@
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 400px;
+    height: 200px;
+    margin-left: 450px;
+    background-color: lightgreen;
+    border: 5px solid red;
+}
+.spisok {
+    padding: 15px;
+    border: 2px solid green;
+    background-color: pink;
+    margin: 20px;
+}
 .contact-info {
     border: 2px solid red;
     margin: 20px;
@@ -10,4 +27,10 @@
     border: 2px solid green;
     background-color: pink;
     margin: 20px;
+}
+#img {
+    width:1200px;
+    height: 700px;
+    background-image: url(./bumagnydom.jpg);
+    object-fit: cover;
 }

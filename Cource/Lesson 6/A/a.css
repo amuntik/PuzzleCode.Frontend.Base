@@ -1,0 +1,51 @@
+.wildlife-title {
+    font-size: 44px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Arial', sans-serif;
+}
+.wildlife-list {
+    list-style:none; 
+    margin: 0; 
+    padding: 0;
+}
+li{
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Arial', sans-serif;
+    width: 400px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 15px;
+}
+#lef{
+ background-color: orange;
+}
+#tiger{
+    background-color: rgba(255, 111, 0, 1);
+}
+#slon{
+    background-color: grey;
+}
+#gepard{
+    background-color: #FFA100;
+}
+#zebra{
+    background-color: #CBCBCB;
+}
+#zhiraf{
+    background-color: rgb(255, 216, 77);
+}
+.wildlife-description {
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Arial', sans-serif;
+}
+.wildlife-image {
+    width: 1500px;
+    height: 700px;
+    background-image: url(./madagascar.jpg);
+    background-position: left;
+}
