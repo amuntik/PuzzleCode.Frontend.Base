@@ -1,0 +1,57 @@
+* {
+    font-family: 'Comfortaa', sans-serif;
+}
+h1 {
+    font-family: "Rubik Bubbles";
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+h3 {
+    font-size: 25px;
+    color: grey;
+}
+h4 {
+    font-size: 20px;
+    color: lightgrey;
+    margin-bottom: 40px;
+}
+p {
+    font-weight: 900;
+    font-size: 15px;
+}
+li {
+    width: 850px;
+    padding-right: 400px;
+    font-size: 15px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.one{
+    background: url(./one.jpg) right no-repeat;
+    background-size: 400px;
+}
+.two{
+    background: url(./two.jpg) right no-repeat;
+    background-size: 400px;
+    height: 270px;
+}
+.three{
+    background: url(./three.jpg) right no-repeat;
+    background-size: 400px;
+    height: 270px;
+}
+.four{
+    background: url(./four.jpg) right no-repeat;
+    background-size: 400px;
+}
+.five{
+    background: url(./five.jpg) right no-repeat;
+    background-size: 400px;
+    height: 300px;
+}
+.end {
+    font-family: "Rubik Bubbles";
+    font-size: 45px;
+}
