@@ -349,46 +349,14 @@
   }
 
 
-
-
-
-
-
-
-
-.title{
-    text-align: center;
-    font-size: 40px;
-    font-weight: 500;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 400px;
-    height: 200px;
-    margin-left: 450px;
-    background-color: pink;
-    border: 5px solid purple;
-}
-.spisok {
-    padding: 15px;
-    border: 2px solid purple;
-    background-color: pink;
-    margin: 20px;
-}
-.contact-info {
-    border: 2px solid purple;
-    margin: 20px;
-    padding: 15px;
-    background-color: pink;
-}
-
-.hobby {
-    padding: 15px;
-    border: 2px solid purple;
-    background-color: pink;
-    margin: 20px;
-}
-#img {
-    width:1200px;
-    height: 700px;
-    background-image: url(./bumagnydom.jpg);
-    object-fit: cover;
-}
+  
+  li:nth-child(2n) {
+    background-color: red;
+  }  
+  ul{
+    list-style-type: circle;
+  }
+  input::placeholder{
+    color: blue;
+    font-size: 20px;
+  }
