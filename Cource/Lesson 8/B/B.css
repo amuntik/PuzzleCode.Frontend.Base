@@ -1,0 +1,20 @@
+img{
+    width: 400px;
+    height: 400px;
+    margin: 15px;
+}
+p{
+    background-color: white;
+    position: absolute;
+    z-index: auto;
+    top: 15px;
+    right: 30px;
+    font-size: 20px;
+}
+.photo{
+    position: relative;
+}
+.gallery{
+    overflow: auto;
+    display: flex;
+}
