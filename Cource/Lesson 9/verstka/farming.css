@@ -352,7 +352,164 @@
 
 
 
-  *{
-    outline: 1px solid red;
-    font-family: 'Livvic', sans-serif;
-  }
+*{
+  outline: 1px solid red;
+  font-family: 'Livvic', sans-serif;
+}
+
+.hero{
+  background-size: cover;
+  height: 954px;
+  width: 1920px;
+}
+.text1{
+  width: 730px;
+  margin-left: 240px;
+  position: relative;
+}
+button{
+  width: 218px;
+  height: 69px;
+  border-radius: 20px;
+  background-color: #F7C35F;
+  color: #1A1A1A;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+.text1 h3{
+  padding-top: 268px;
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  word-wrap: break-word;
+}
+.text1 h1{
+  color: #F7C35F;
+  font-size: 70px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.text1 h2{
+  color: white;
+  font-size: 70px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.text1 p{
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.listik{
+  position: absolute;
+  right: 140px;
+  top: 323px;
+}
+
+.foods{
+  height: 656px;
+  background-color: #263C28;
+  width: 1920px;
+}
+.vegetables{
+  margin-left: 240px;
+  margin-right: 240px;
+  margin-top: 100px;
+  margin-bottom: 188px;
+  display: flex;
+  align-content: space-between;
+}
+.vegetable{
+  width: 183px;
+  height: 177px;
+  padding: 33px, 57px, 33px, 57px;
+  background-color: #F5F5F5;
+  border-radius: 15px; 
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  word-wrap: break-word;
+  background-color: #445945;
+}
+
+.agriculture{
+  background-image: url(./);
+  height: 694px;
+  width: 1920px;
+}
+.agriculture h2{
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  word-wrap: break-word;
+  margin-left: 240px;
+}
+
+.work{
+  height: 853px;
+  width: 1920px;
+  background-color: #263C28;
+  padding-top: 130px;
+}
+.minizag{
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 30px;
+  word-wrap: break-word;
+  width: 271px;
+  padding-left: 825px;
+  padding-right: 824px;
+}
+.zagolovok2{
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  word-wrap: break-word;
+  width: 489px;
+  margin-top: 20px;
+  padding-right: 715px;
+  padding-left: 716px;
+}
+.raboty{
+  margin-top: 100px;
+  width: 1441px;
+  margin-left: 239px;
+  margin-right: 240px;
+  display: flex;
+}
+.shadow{
+  width: 318px;
+  height: 350px;
+  border-radius: 10px;
+}
+.yellow{
+  color: #F7C35F;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  margin-top: 264px;
+  margin-left: 25px;
+}
+.natural{
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  word-wrap: break-word;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+.menu{
+  margin-top: 50px;
+  margin-left: 933px;
+  margin-right: 933px;
+  width: 54px;
+  height: 10px;
+}
