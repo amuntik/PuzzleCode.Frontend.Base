@@ -358,6 +358,7 @@
 }
 
 .hero{
+  background-image: url(./background.jpg);
   background-size: cover;
   height: 954px;
   width: 1920px;
@@ -377,6 +378,18 @@ button{
   font-weight: 500;
   text-transform: uppercase;
   word-wrap: break-word;
+}
+button:hover{
+  background-color: #F6D086;
+  transition: 0,3s;
+}
+button:focus{
+  background-color: #C58D21;
+  transition: 0,3s;
+}
+button:active{
+  background-color: #A16C06;
+  transition: 0,3s;
 }
 .text1 h3{
   padding-top: 268px;
@@ -414,6 +427,7 @@ button{
   height: 656px;
   background-color: #263C28;
   width: 1920px;
+  padding-top: 78px;
 }
 .vegetables{
   margin-left: 240px;
@@ -426,7 +440,6 @@ button{
 .vegetable{
   width: 183px;
   height: 177px;
-  padding: 33px, 57px, 33px, 57px;
   background-color: #F5F5F5;
   border-radius: 15px; 
   color: white;
@@ -435,11 +448,50 @@ button{
   word-wrap: break-word;
   background-color: #445945;
 }
+.vegetable:hover{
+  background-color: #F7C35F;
+  transition: 0.3s;
+}
+.vegetable:focus{
+  background-color: #6A8A6D;
+  transition: 0.3s;
+}
+.vegetable:active{
+  background-color: #263C28;
+  transition: 0.3s;
+}
+.vegetable img{
+  width: 60px;
+  height: 60px;
+  padding-top: 36px;
+  padding-left: 61.5px;
+  padding-right: 61.5px;
+}
+.vegetable p{
+  text-align: center;
+}
+.blueberry{
+  margin-left: 68px;
+}
+.carrot{
+  margin-left: 68px;
+}
+.cabbage{
+  margin-left: 68px;
+}
+.eggplant{
+  margin-left: 68px;
+}
+.strawberry{
+  margin-left: 69px;
+}
 
 .agriculture{
-  background-image: url(./);
+  background-image: url(./background2.jpg);
+  background-size: cover;
   height: 694px;
   width: 1920px;
+  padding-top: 284px;
 }
 .agriculture h2{
   color: white;
@@ -447,6 +499,7 @@ button{
   font-weight: 700;
   word-wrap: break-word;
   margin-left: 240px;
+  width: 609px;
 }
 
 .work{
@@ -462,7 +515,8 @@ button{
   text-transform: uppercase;
   line-height: 30px;
   word-wrap: break-word;
-  width: 271px;
+  width: 326px;
+  text-align: center;
   padding-left: 825px;
   padding-right: 824px;
 }
@@ -471,10 +525,11 @@ button{
   font-size: 50px;
   font-weight: 700;
   word-wrap: break-word;
-  width: 489px;
+  width: 665px;
   margin-top: 20px;
   padding-right: 715px;
   padding-left: 716px;
+  text-align: center;
 }
 .raboty{
   margin-top: 100px;
@@ -496,6 +551,7 @@ button{
   word-wrap: break-word;
   margin-top: 264px;
   margin-left: 25px;
+  width: 77px;
 }
 .natural{
   color: white;
@@ -505,6 +561,27 @@ button{
   word-wrap: break-word;
   margin-left: 25px;
   margin-bottom: 20px;
+  width: 133px;
+}
+.strelka{
+  position: absolute;
+  right: 41px;
+  top: 285px;
+}
+.one{
+  background-image: url(./nat1.jpg);
+}
+.two{
+  background-image: url(./nat2.jpg);
+  margin-left: 56px;
+}
+.three{
+  background-image: url(./nat3.jpg);
+  margin-left: 56px;
+}
+.four{
+  background-image: url(./nat4.jpg);
+  margin-left: 56px;
 }
 .menu{
   margin-top: 50px;
