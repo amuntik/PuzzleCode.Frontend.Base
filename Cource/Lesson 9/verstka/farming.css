@@ -354,11 +354,12 @@
 
 *{
   font-family: 'Livvic', sans-serif;
+  width: 1920px;
 }
 
 .header{
   height: 110px;
-  width: 1920px;
+  width: 100%;
   background-color: #334B35;
   display: flex;
 }
@@ -398,19 +399,24 @@
   margin-left: 50px;
 }
 
+
+
 .hero{
   background-image: url(./background.jpg);
   background-size: cover;
   height: 954px;
-  width: 1920px;
+  width: 100%;
+  max-width: 1920px;
 }
 .text1{
-  width: 730px;
-  margin-left: 240px;
+  width: 38%;
+  max-width: 730px;
+  margin-left: 12.5%;
   position: relative;
 }
 button{
-  width: 218px;
+  width: 30%;
+  max-width: 218px;
   height: 69px;
   border-radius: 20px;
   background-color: #F7C35F;
@@ -434,7 +440,7 @@ button:active{
   transition: 0,3s;
 }
 .text1 h3{
-  padding-top: 268px;
+  padding-top: 28%;
   color: white;
   font-size: 25px;
   font-weight: 400;
@@ -462,13 +468,17 @@ button:active{
 .listik{
   position: absolute;
   right: 140px;
-  top: 323px;
+  top: 38%;
+  width: 10%;
+  max-width: 75px;
 }
+
+
 
 .foods{
   height: 656px;
   background-color: #263C28;
-  width: 1920px;
+  width: 100%;
   padding-top: 78px;
 }
 .minizag{
@@ -478,32 +488,32 @@ button:active{
   text-transform: uppercase;
   line-height: 30px;
   word-wrap: break-word;
-  width: 326px;
+  width: 17%;
   text-align: center;
-  padding-left: 797.5px;
-  padding-right: 824px;
+  padding-left: 41.5%;
+  padding-right: 43%;
 }
 .zagolovok21{
   color: white;
   font-size: 50px;
   font-weight: 700;
   word-wrap: break-word;
-  width: 665px;
+  width: 34.6%;
   margin-top: 20px;
-  padding-right: 627px;
-  padding-left: 628px;
+  padding-right: 32.6%;
+  padding-left: 32.7%;
   text-align: center;
 }
 .vegetables{
-  margin-left: 240px;
-  margin-right: 240px;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
   margin-top: 100px;
   margin-bottom: 188px;
   display: flex;
   align-content: space-between;
 }
 .vegetable{
-  width: 183px;
+  width: 9.5%;
   height: 177px;
   background-color: #F5F5F5;
   border-radius: 15px; 
@@ -512,6 +522,7 @@ button:active{
   font-weight: 600;
   word-wrap: break-word;
   background-color: #445945;
+  position: relative;
 }
 .vegetable:hover{
   background-color: #F7C35F;
@@ -535,6 +546,7 @@ button:active{
 }
 .vegetable p{
   text-align: center;
+  position: absolute;
 }
 .blueberry{
   margin-left: 68px;
@@ -551,6 +563,8 @@ button:active{
 .strawberry{
   margin-left: 69px;
 }
+
+
 
 .agriculture{
   background-image: url(./background2.jpg);
@@ -570,9 +584,11 @@ button:active{
   line-height: 70px;
 }
 
+
+
 .work{
   height: 853px;
-  width: 1920px;
+  width: 100%;
   background-color: #263C28;
   padding-top: 130px;
 }
@@ -651,6 +667,7 @@ button:active{
   position: absolute;
   right: 41px;
   top: 285px;
+  width: 24px;
 }
 .one{
   background-image: url(./nat1.jpg);
@@ -673,4 +690,7 @@ button:active{
   margin-right: 933px;
   width: 54px;
   height: 10px;
+}
+#menu{
+  width: 54px;
 }
