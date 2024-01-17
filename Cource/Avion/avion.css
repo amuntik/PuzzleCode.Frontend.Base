@@ -354,9 +354,9 @@
 
   *{
     font-family: 'Roboto';
-    max-width: 1960px;
+    max-width: 1920px;
     width: 100%;
-    background-color: yellow;
+    outline: 1px solid red;
   }
 
 
@@ -375,6 +375,7 @@
 }
 .header1 h1 {
     margin-left: 44.6%;
+    margin-right: 43.5%;
     font-size: 20px;
     color: #22202E;
 }
@@ -406,9 +407,6 @@ hr {
     display: grid;
     grid-template-columns: 52.8% 36.1%;
 }
-.stul img {
-
-}
 .text {
     background-color: #2A254B;
     padding: 8% 10.3%;
@@ -428,6 +426,7 @@ hr {
     font-size: 20px;
     color: white;
     margin-bottom: 33%;
+    border: none;
 }
 .text p {
     width: 88.7%;
@@ -435,4 +434,158 @@ hr {
     font-size: 20px;
     color: white;
     line-height: 140%;
+}
+.stul img {
+  height: 100%;
+}
+
+
+
+.different {
+  padding-top: 4.2%;
+  padding-bottom: 1.5%;
+  padding-left: 6%;
+  padding-right: 7.6%;
+  color: #2A254B;
+}
+.thinks {
+  width: 86.4%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.think {
+  width: 85%;
+}
+.different h2 {
+  margin-bottom: 2.8%;
+  margin-left: 36.7%;
+  margin-right: 32.1%;
+  width: 31.2%;
+  font-size: 32px;
+}
+.think img {
+  width: 7.7%;
+  margin-bottom: 16px;
+}
+.think h4 {
+  font-size: 20px;
+  font-weight: medium;
+  margin-bottom: 8px;
+}
+.think p {
+  font-size: 20px;
+}
+
+
+
+.ceramics {
+  padding-top: 5.6%;
+  padding-left: 5.6%;
+  padding-right: 5.6%;
+  padding-bottom: 3.6%;
+}
+.c {
+  width: 88.8%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-around;
+}
+.c img {
+  width: 95.3%;
+  margin-right: 20px;
+  margin-bottom: 24px;
+}
+.ceramics h2 {
+  margin-bottom: 1.8%;
+  width: 14%;
+  font-size: 32px;
+}
+.ceramics button {
+  width: 15.5%;
+  height: 60px;
+  background-color: #F9F9F9;
+  font-size: 20px;
+  color: #2A254B;
+  margin-top: 2.4%;
+  margin-left: 42.25%;
+  margin-right: 42.25%;
+  border: none;
+}
+.name {
+  font-size: 20px;
+  color: #2A254B;
+  margin-bottom: 8px;
+}
+.price {
+  font-size: 20px;
+  color: #2A254B;
+  margin-bottom: 0px;
+}
+
+
+
+.popular {
+  padding-top: 4.4%;
+  padding-left: 5.6%;
+  padding-right: 5.6%;
+  padding-bottom: 3%;
+}
+.products {
+  width: 88.8%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.popular button {
+  width: 15.5%;
+  height: 60px;
+  background-color: #F9F9F9;
+  font-size: 20px;
+  color: #2A254B;
+  margin-left: 42.25%;
+  margin-right: 42.25%;
+  border: none;
+}
+.product2 img {
+  width: 95%;
+  margin-right: 20px;
+  height: 77.4%;
+}
+.product1 img{
+  width: 97.7%;
+  margin-right: 20px;
+  height: 77.4%;
+}
+
+
+
+.join {
+  background-color: #F9F9F9;
+  padding-top: 3.6%;
+  padding-bottom: 4.5%;
+  padding-left: 6.5%;
+  padding-right: 5.1%;
+}
+.textjoin {
+  background-color: #FFFFFF;
+  width: 88.4%;
+  padding-top: 4.7%;
+  padding-bottom: 3.5%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.textjoin img {
+  width: 37.1%;
+}
+.textjoin h3 {
+  font-size: 24px;
+  width: 39.7%;
+  margin-bottom: 16px;
+  margin-left: 30.2%;
+}
+.textjoin p {
+  font-size: 20px;
+  width: 39.7%;
+  margin-bottom: 5.6%;
+  margin-left: 30.2%;
 }
